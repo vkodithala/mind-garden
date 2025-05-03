@@ -1,0 +1,25 @@
+---
+title: A Little Life
+publish: "true"
+date: 2025-05-03
+tags:
+  - book
+  - review
+---
+Rating: 4/5. You can also find this on [Goodreads](https://www.goodreads.com/review/show/7370641979).
+
+This was the first work of fiction that I read in some time, and I found it both troubling and remarkable.
+
+Perhaps the most remarkable thing about it was Yanagihara's prose. She switches between the perspectives of five personalities: Jude, Willem, JB, Malcolm, and Harold (but mostly Jude) as they navigate through shared experiences. Over and over again, I found myself re-reading excerpts from the book, many of which I could relate to on a personal level.
+
+Some of my favorites were her lengthy descriptions of the places that Jude/Willem lived: Lispenard Street, Greene Street, etc. She spent much time documenting even the dull, ordinary moments of their lives, which she ties together nicely near the end of the book with Jude's realization that he longs not for specific, but everyday moments that he spent with Willem and other loved ones.
+
+Though JB and Malcolm were both treated as footnotes for much of Yanagihara's story, I thought that JB's worldview was an interesting one. We learn about his upbringing, his rise to success as an artist, and then his drug addiction and what fueled it. But while Jude was the main character of this book, I found that Willem was the protagonist.
+
+Willem, who cared about his friends more than anything else in the world, and was never unkind. But also Willem who we get to know mostly through the accounts of others, until the very end when we learn about his internal dialogue and maybe start to appreciate him more than ever.
+
+I actually cared for Jude's story much less than the other characters in the book (maybe because everything in the book revolved around him). But this is probably not a popular take. It seemed that every time Jude got a glimpse at a happy life, it was accompanied by immense pain and sorrow—which had no effect but to reinforce things we already knew about Jude: that he believed himself unworthy of being loved and suffered from a tendency to self-harm. He seldom deviated from these characteristics, and when he did, he inevitably regressed. Jude's story was one of immense sorrow such that pain and suffering almost seemed like the plot itself.
+
+A more optimistic theme of Yanagihara's book was that of unconditional love. We see many of her characters embody this, but mostly Willem, Andy, and Harold. Throughout the book, their love and commitment to Jude is accompanied with Jude's perplexity that he could ever be loved, and even his eventual desire not to be. But their love holds steadfast and manifests itself at every turn, until eventually Jude's friends become family: Harold and Julia, his parents and Willem, his lover. 
+
+The story's ending (really, the entire last chapter) was sad but inevitable, but I felt that it fit. I read 'A Little Life' more for the pages in between the beginning and end, and here it didn't disappoint.

@@ -1,0 +1,51 @@
+#### Planarity, graph isomorphisms
+- **Def.** A bipartite graph is a graph whose vertices can be split into 2 groups such that no edge exists between an element in one group and an element in the other
+- **Def.** A graph is planar if it can be drawn/re-drawn such that none of its edges intersect
+	- There's no rule against drawing curved lines to achieve planarity
+	- By Kuratowski's theorem, a graph with a $K_{3, 3}$ or $K_5$ subgraph cannot also be planar
+- **Def.** A graph isomorphism is a function that relabels all of the vertices and edges from the parent graph. It has a few properties:
+	- (1) It's a bijection, which means that every vertex and edge in the original is mapped to another in the isomorphism
+	- (2) $(a, b) \in E_1$ if and only if $(f(a), f(b)) \in E_2$ where $E_1, E_2$ are the EdgeSets of the original and isomorphic graph
+- Steps you should follow when proving that graphs are non-isomorphic (if any of these conditions isn't true, then your graphs aren't isomorphic):
+	- (1) Check that the number of vertices |V| and the number of edges |E| are the same in both graphs
+	- (2) Check that the degrees of all vertices are the same
+	- (3) Check that subgraphs/structures in the original graph are reflected in its mirror
+	- If all of these are true, then you should proceed to look for an isomorphism, starting by mapping vertices with the same degree in both graphs to one another
+- **Def.** An n-regular graph is a graph where every vertex has degree n
+- **Def.** 2 graphs are homeomorphic they are either (a) isomorphic or (b) obtained by some sequence of elementary subdivisions of the same loop-free graph
+	- What are elementary subdivisions, though? This is when we replace an edge of the graph with 2 edges that meet at the same vertex (see example below)![[Screenshot 2025-05-01 at 12.18.37 AM.png]]
+	- Recall that two isomorphic graphs must have the same planarity. This is true also of two homeomorphic graphs
+#### Prufer codes, Euler's theorem, and finding MSTs using Kruskal's
+- **Thm.** Euler's theorem states that for a connected, loop-free, planar graph, $v - e + r = 2$, where $r$ denotes the number of regions that exist in a planar embedding
+	- One way to disprove planarity (alongside proving $K_{3, 3}$ or $K_5$ subgraphs) is via the corollary to Euler's theorem. This states that for a loop-free, connected graph with $\geq 2$ edges, then for the graph to be planar then $3r \leq 2e$ must be true
+		- We can also plug in the value of $r$ from Euler's theorem, which is $2 - v + e$, to get $3(2 - v + e) \leq 2e = 6 - 3v + 3e \leq 2e = e \leq 3v - 6$
+	- The corollary to Euler's theorem can only be used to *disprove* planarity - never to prove it
+- **Def.** A tree is a connected, loop-free graph that contains no cycles
+	- Properties of trees:
+		- All trees are planar
+		- For any pair of distinct vertices $a, b$ there is a unique path from $a \to b$
+		- There are at least 2 vertices of degree 1, called leaves
+		- They are (loosely) connected with |V| - 1 edges, and become disconnected with the removal of one of these edges
+- **Def.** Prufer codes are encodings of a $n$-vertex tree as a sequence of $n-2$ integers
+	- Process of getting Prufer code from a tree:
+		- (1) Remove the degree-1 vertex with the smallest label, and then record the label of its neighbor
+		- (2) Repeat until 2 vertices remain, then save the resulting label sequence as your code
+	- Process of getting tree from a Prufer code:
+		- (1) Connect the first label in our code to to the smallest label not currently in it
+		- (2) Remove that first label, append the smallest label not currently in it to the end
+		- (3) Repeat until all original labels in the code are gone
+		- (4) 2 labels will be missing from string at end - connect them
+- **Def.** A spanning tree is a subgraph of G that includes all of its vertices and is a tree
+	- The minimum spanning tree is the spanning tree of a weighted graph G with the smallest sum of all edge weights
+	- Kruskal's algorithm is what we use to find MSTs
+		- This algorithm itself is quite elegant and intuitive: we just pick the smallest edge that doesn't create a cycle with existing edges until we have |V|-1 edges
+#### Euler and Hamilton
+- **Def.** A circuit is a walk that never reuses an edge and ends up at the same place it began, whereas a trail is a walk that never reuses an edge and ends up at a different place from where it began
+	- Euler circuits/trails are variants that use each edge exactly once
+- For a Euler circuit to exist, all of the vertices of a graph have to have even degrees - this is because each vertex must be "entered" and "left" the same number of times
+	- For a Euler trail to exist, the graph must be connected, with exactly 2 vertices of odd degree (start and end vertices)
+- Hamilton cycles/paths are variants that use each vertex (and by extension, each edge) exactly once
+	- For a Hamiltonian cycle to exist, $deg(v) \geq 2$ for all vertices $v$
+	- If we have a loop-free graph with $|V| \geq 2$, then if for any pair of vertices $x, y$, $deg(x) + deg(y) \geq |V| - 1$, then a Hamiltonian path exists
+		- If we have a loop-free graph where $|V| \geq 3$ and for ALL pairs of distinct, non-connected vertices, $deg(x) + deg(y) \geq |V|$, then a Hamiltonian cycle exists
+		- But these two statements aren't iff, and can only be used for proving the existence of Hamiltonian things

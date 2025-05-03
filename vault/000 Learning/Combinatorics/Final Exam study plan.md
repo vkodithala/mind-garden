@@ -1,0 +1,47 @@
+Exam's worth at least 30% of my grade, at most 45%. Minimum grade that I need for an A is an 80, but shooting for the highest grade possible. Just based on my life principles/love for learning. Roadmap for studying:
+- [x] **SATURDAY 4/26:**
+	- [x] Material for HW1 (do before HW1, then actually re-do HW1)
+		- [x] Fundamentals of set theory/counting, relations, and functions
+		- [x] Pigeonhole Principle, bijections, proof writing
+	- [x] Material for HW2:
+		- [x] Induction
+		- [x] Enumeration
+		- [x] Sum/product rules
+		- [x] Combinations, permutations
+- [x] **SUNDAY 4/27:**
+	- [x] Material for HW3:
+		- [x] Variations of permutations
+		- [x] Combinatorial proofs
+	- [x] Material for HW4:
+		- [x] Combinations in succession, binomial thm
+			- [x] Combinations of indistinct objects, S&B, counting integer solution
+		- [x] Enumeration, combining permutations/combinations
+	- [x] **Redo E1**
+- [x] **MONDAY 4/28:**
+	- [x] Material for HW5:
+		- [x] PIE
+			- [x] Inclusion/exclusion with variations
+	- [x] Material for HW6:
+		- [x] Counting, surjections, derangements
+		- [x] Rook polynomials
+- [ ] **TUESDAY 4/29:**
+	- [x] Material for HW7:
+		- [x] Generating functions
+			- [x] Combining generating functions
+			- [x] Practice/examples (3/6 lecture, right before E2)
+		- [x] Integer partitions
+	- [x] **Redo E2**
+- [ ] **WEDNESDAY 4/30:**
+	- [ ] Material for HW9:
+		- [ ] Intro graph theory (definitions)
+		- [ ] Graph isomorphisms, homeomorphisms, planarity
+		- [ ] Trees, Prüfer codes, Cayley's thm
+		- [ ] Euler/Hamilton, circuits and cycles
+		- [ ] 4-color thm, colorability
+		- [ ] Chromatic polynomials
+			- [ ] Chromatic polynomial recursion
+	- [ ] **Redo E3**
+	- [ ] Final exam review (old exams):
+		- [ ] Final Su24
+		- [ ] Final Fa24 (same as Tristan's exam?)
+		- [ ] Sice doc questions

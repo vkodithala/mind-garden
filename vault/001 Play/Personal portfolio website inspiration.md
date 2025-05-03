@@ -1,0 +1,18 @@
+Generally, every portfolio site should have an about/'Welcome' page. The (good) ones I've seen have a couple of characteristics:
+1. Describe what the author is currently doing. [Jacky Zhao](https://jzhao.xyz/) does this well by mentioning his current role, and then a question that motivates him in his work.
+	1. Thinking out loud here: I like solving problems. Of all kinds -- I've found myself enjoying mathematics, physics, computer programming, etc. But something that's guided me in life is solving sufficiently difficult problems. The problem that I'm focused on currently is AI's place in developer workflows, and I'll be working with some of the brightest engineers I know on this problem at Warp in SF.
+	2. I really like Pelayo Arbués' page and how he includes a 'now' section based on the [NowNowNow](www.nownownow.com) initiative - I want to include this also
+2. Broader interests/passions. Again, thinking out loud: this probably involves, for me, building places (and systems) for people to let their mind wander, and work on things that excite them at a deeper level. I take lots of inspiration from Farza and buildspace, and for a time led Startup Exchange with Vik and Carter.
+	1. I enjoy doing difficult things. Currently: training to run the SF half in July. And outside of that, I like to cook, am an ultra-amateur photographer, and lift weights.
+3. Reading and writing are two core parts of my life. I got back into reading in the Summer of 2023, when I read books basically all Summer (out of boredom, and on the side also learned to cook -- boredom can do wonderful things). Right now I'm reading a lot of fiction -- currently, Dostoevsky's *Crime and Punishment*.
+	1. I want to create a bookshelf page to accompany this. I like to rate books, so something very similar to Adam Majmudar's (see [here](https://adammaj.com/reading)). I want it to be more basic though, so cut the top part (I can add this later), and just have the recommendations, with years as titles. Can maybe pull from/link to Goodreads?
+	2. Maybe also include an [anti-library](https://nesslabs.com/antilibrary)?
+4. And perhaps the last section that I really want to include, is of my photography. I have a lot of photographs that I've wanted for a long time to be shared (mostly from my Olympus). Let's add them in here.
+5. Oh, and I almost forgot. There should be a Projects section that highlights some of my thought experiments from the past. I'm not exactly sure how this should be structured, but it might be worth Figma'ing it out.
+
+And then there are some other important questions that I should make for this website:
+- Color palette. I really remember liking Sesame's, because it was light and welcoming. Theirs is a black and paper white. 11111 for the dark black (headings/bold text). 8c8c8c for regular text, and f6f6f6 for the background. Wait, actually, I liked their sub-pages (see [this](https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice)).
+	- For the sub-pages, they use actual white ffffff for the main background, and the gray for the left-hand side nav bar background.![[Screenshot 2025-04-27 at 12.08.09 AM.png]]
+	- My site could actually look entirely like the above, except the left hand side could say Home, Reading, Writing, Photography, Projects (cut out last 2 for now), and below the divider could be my socials.
+	- This also mirrors OpenAI's website (interesting side note - maybe intentional by Sesame?).
+- But what about the font? Copy Sesame's here too -- I quite like theirs. Can just find 2 that look similar to theirs? From Figma

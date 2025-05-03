@@ -1,0 +1,29 @@
+- Company that Teo worked for implemented Salesforce (CRM tool) to handle payments discrepancies for Fintechs
+- 15,000 Fintechs in the US (payment companies, banking solutions, etc.)
+	- Reconciliation workflows are present in all, but for how many is this a burning problem?
+	- More products = more providers = more reconciliation - applies more to Series A+ companies focusing on product expansion
+- Existing solutions (SaaS) = $50-60k/year, which is expensive for a startup
+	- Means that they'll live with the pain until it breaks later on down the road
+	- Critical component of the infrastructure, wants to scale with startups
+		- Thesis = it's hard to replace MT for established players, start with startups
+- Model specifics:
+	- Cannot afford a false positive - tool needs to have guardrails and verification layers to hit 100% accuracy for all automations
+		- *But how do you reach 100% accuracy in matching?
+		- Human-in-the-loop, or some human collaboration (but this isn't 100% clear)
+- SaaS tool that's cheaper, plug-and-play, marginally better than solutions out there, and more explainable
+	- Goal = become THE data orchestration layer for Fintech (platform play)
+- 4 parties in one money flow: bank, fintech platform, service provider (Mastercard, VanillaDirect), ledger/BaaS provider
+	- Need to connect to all 4 parties via some API, which is hard because service provider platforms are super diverse
+- Trying to build a central data orchestrator, recon is a tool
+	- Because it's only a wedge, main priority is adoption
+	- Motivates pricing - flat pricing (don't want to be a tax on revenue as you grow), but probably will charge/money flow
+- Idea maybe is for Rexi to be bought by banks to provide for fintechs they're working with as a benefit to working with them
+- Venture-scale idea is to become a data orchestrator/centralized system of record such that banks/fintechs can track transactions at every step
+	- Current state of affairs is broken/not scalable - this needs to happen
+- Ramp's finance team takes 15% of their month for reconciliations - team of size 20, big part of their value proposition
+	- Not that huge of a problem for fintechs, only a marginal problem for Ramp
+- Jason: how I would think about this one
+	- Fundraising super early, lots of imperfect data. How do you deal with this?
+		- Often ends up being: do we have more data points around the people/founders?
+		- Do we believe in them being high slope?
+	- Hard to hit an inflection point with targeting smaller startups, beating on price - what are examples of companies that *have* done this? 
