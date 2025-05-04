@@ -7,7 +7,7 @@ My name is Varoon, and this is my digital [mind garden](https://nesslabs.com/min
 
 This website is my effort to document some of this. In it you'll find my [readings](readings.md), writings, and [beliefs](beliefs.md). It's unstructured by design, and presents several winding paths down my consciousness.
 
-### In Bloom 
+### 🪴 In Bloom 
 
 I'm currently studying computer science at [Georgia Tech](https://www.gatech.edu), with a focus on low-level systems and machine learning. If you know anything about me, you know that I have an immense love for learning. 
 
@@ -15,7 +15,7 @@ I'm also an intern at [Warp](https://warp.dev) in San Francisco, where I'm worki
 
 Recently, I've been exploring virtualization mechanisms for satellite constellations with [Professor Ahmed Saeed](https://saeed.github.io/). I'm also a venture partner at [Contrary](https://www.contrary.com).
 
-### Roots
+### 🌱 Roots
 
 Previously, I worked on UX for security data at [Censys](https://censys.io) and AI tools for Higher Education at [Noodle](https://www.noodle.com).
 
