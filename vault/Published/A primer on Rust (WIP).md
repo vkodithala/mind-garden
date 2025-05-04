@@ -1,3 +1,7 @@
+---
+publish: "true"
+---
+
 - Why Rust? It's important to answer this question to motivate our learning
 	- Systems/low-level programming (with C) offers benefits like faster runtimes, but it's incredibly hard to work with because of subtle bugs that come from memory-safety issues, etc.
 	- Rust avoids these bugs with a 'smart' compiler that refuses to compile code with elusive bugs (often having to deal with memory/concurrency)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Published/index.md",
+                "file": "Published/A primer on Rust (WIP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "A primer on Rust (WIP)"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Published/index.md",
+                "file": "001 Play/Personal portfolio website inspiration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Personal portfolio website inspiration"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Published/index.md",
+                "file": "Published/A primer on Rust (WIP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for A primer on Rust (WIP)"
             }
           },
           {
@@ -182,22 +181,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3302c6840f1f4df4",
+  "active": "08911b195bb162af",
   "lastOpenFiles": [
+    "Published/readings.md",
+    "Published/Writing/a-little-life.md",
+    "001 Play/Personal portfolio website inspiration.md",
+    "Published/projects.md",
     "Published/index.md",
     "Published/beliefs.md",
-    "Published/readings.md",
     "Published/Writing",
-    "Published/Writing/a-little-life.md",
     "001 Play/A Little Review of 'A Little Life' by Hanya Yanagihara.md",
     "Published/Reading/A Little Life.md",
     "Published/Writing",
     "Published/Reading",
     "Published",
-    "001 Play/Personal portfolio website inspiration.md",
     "www.gatech.edu.md",
     "www.censys.io.md",
-    "000 Learning/Rust/TRPL Summary.md",
+    "Published/A primer on Rust (WIP).md",
     "Index.md",
     "000 Learning/Combinatorics/Graph theory.md",
     "000 Learning/Combinatorics/Final Exam study plan.md",
