@@ -28,9 +28,7 @@ $mobileGrid: (
   templateColumns: "auto",
   rowGap: "5px",
   columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left"\
-      "grid-header"\
+  templateAreas: '"grid-header"\
       "grid-center"\
       "grid-sidebar-right"\
       "grid-footer"',
