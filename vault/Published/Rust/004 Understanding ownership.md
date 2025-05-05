@@ -21,7 +21,7 @@ println!("{}", s);
 		- Called automatically at the closing curly brackets
 - Copying datatypes like `&str` that are stored on the stack is relatively inexpensive, so they are by default deep-copied
 	- For types like integers, booleans, characters, and tuples that are stored on the stack, Rust defines a trait `Copy` that makes older variables usable after re-assignment, and deep copies data to aliases
-	- But when we copy data that's stored on the stack without using `clone`, Rust simply moves the ownership to the second variable and invalidates the first
+	- But when we copy data that's stored on the stack without using `clone`, Rust simply moves the ownership to the second variable anwd invalidates the first
 ```rust
 let s1 = String::from("hello");
 let s2 = s1;

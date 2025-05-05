@@ -1,3 +1,7 @@
+---
+publish: "true"
+date: 2025-05-05
+---
 ##### Library crates vs. binary crates
 - A library crate is a crate that other people can pull into their projects as a dependency
 	- We can create one using a command like `cargo new communicator --lib`, where 'communicator' is the name of our crate
@@ -28,7 +32,7 @@ mod network {
 - Now let's say we have a submodule defined in `server.rs` with the following contents:
 ```rust
 mod auth {
-	fn login {
+	fn login() {
 	}
 }
 ```
@@ -56,6 +60,7 @@ pub fn login() {
 - General rules for item visibility:
 	- If an item is public, it can be accessed through any of its parent modules
 	- If an item is private, it can be accessed only by its immediate parent module and any of the parent's child modules
+##### The `use` keyword, `glob` syntax, and `super`
 - Let's say we have a function nested within several modules, that we need to access like `a::series::of::nested_modules()`
 	- This can get quite lengthy, so we take advantage of Rust's `use` keyword to bring part of the path into scope
 - Let's say for example that we're using a bunch of functions defined in the 'of' module and don't want to specify this lengthy path over and over again; we can write the following:
@@ -83,4 +88,31 @@ fn main() {
 	let green = TrafficLight::Green;
 }
 ```
-- 
+- If we want to pull in all items in a namespace at once, we can use the `*` syntax, which is called the glob operator. Below is a refactoring of the code we just wrote using this syntax:
+```rust
+use TrafficLight::*;
+
+fn main() {
+	let green = Green;
+}
+```
+- Use globs sparingly, because they usually bring more than what you need into context and sometimes cause naming conflicts
+- Let's take the following code snippet:
+```rust
+pub mod client;
+
+#[cfg(test)]
+mod tests {
+	fn call_connect() {
+		client::connect();
+	}
+}
+```
+- Our call within `call_connect()` would result in a compiler error, because technically `client::connect` belongs to the root (or in this case, parent) module and we are within a submodule `test` when we're calling it
+- There are two ways to fix this:
+	- `::client::connect()`, where the `::` prefix means that we need to specify the full-length path from root
+		- Usually not preferred because it's quite lengthy in most cases
+	- `super::client::connect()`, where the `super::` prefix moves us up one level and allows us to call any sibling modules (which `client` qualifies as)
+		- It's annoying to type `super::` before every declaration, so we usually just include something like `use super::client;` at the top of our module
+> [!note]- References
+> - Chapter 7 of *The Rust Programming Language* by Steve Nichols and Nicole Klabnick.

@@ -40,11 +40,11 @@ enum Option<T> {
 }
 ```
 - Some examples of using `Option` values to hold different types
-	```rust
+```rust
 let some_string = Some("a string");
 let absent_number: Option<i32> = None;
 ```
-	- Notice that when we used `None`, we had to tell Rust what type of `Option<T>` we have because type inference is effectively impossible (there's nothing to base it on)
+- Notice that when we used `None`, we had to tell Rust what type of `Option<T>` we have because type inference is effectively impossible (there's nothing to base it on)
 - So how is this useful to us? The problem with the null operator is operations involving it often have non-deterministic results when using possibly null values in functions
 	- In Rust, we can't use the `Option<T>` items within calculations with non-Options as it results in type mismatches
 	- Thus the compiler makes sure that we handle the null case before using a value with type `Option` - this is done by converting an item of type `Option<T>` to one of type `T` explicitly before using it
