@@ -172,3 +172,5 @@ for team in scores.keys() {
 }
 ```
 
+> [!note]- References
+> - Chapter 8 of *The Rust Programming Language* by Steve Nichols and Nicole Klabnick.
