@@ -17,7 +17,7 @@ let v = vec![1, 2, 3, 4, 5];
 let does_not_exist = &v[100]; // resulting type: &i32
 let does_not_exist = v.get(100); // resulting type: Option<&i32>
 ```
-- The first method causes the program to panic, but the second simply sets `does_not_exist` to `None`. We can handle this case via a `match` flow, like we discussed in [Chapter 4](004 Understanding ownership.md)
+- The first method causes the program to panic, but the second simply sets `does_not_exist` to `None`. We can handle this case via a `match` flow, like we discussed in [[004 Understanding ownership]]
 - When we *do* acquire a valid reference, Rust still enforces that we can't have a mutable reference with any other references (mutable or immutable). For an example, see this code that causes a compiler error:
 ```rust
 let mut v = vec![1, 2, 3, 4, 5];
