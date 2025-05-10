@@ -136,7 +136,7 @@ let teams = vec![String::from("Rebels"), String::from("Empire")];
 let scores = vec![10, -1]
 let scores: HashMap<_, _> = teams.iter().zip(initial_scores.iter()).collect(); // <_, _> is used for type inference of the <K, V> types
 ```
-- For data types that implement the `Copy` trait (these are deep copied during aliasing - see [Understanding ownership](004 Understanding ownership.md) for more details), their data is copied into the hash map
+- For data types that implement the `Copy` trait (these are deep copied during aliasing - see [[004 Understanding ownership]] for more details), their data is copied into the hash map
 	- But for those that don't, the hash map becomes the owner and previous references are invalid (we can avoid this by explicitly using `.copy()` on our data before the `insert` operation)
 		- We can also pass references as values, but need to ensure that those references are valid for as long as the hash map itself is
 - We can retrieve values from a HashMap using the `get` mechanism, which takes in a reference to a key and returns a value of type `Option<T>` that we must handle using a `match`
