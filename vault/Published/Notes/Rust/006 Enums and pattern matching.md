@@ -2,7 +2,6 @@
 publish: "true"
 date: 2025-05-04
 ---
-
 ##### Using structs
 - One situation where we might want to use enums is when we're working with IP addresses
 	- We know that any IP address is one of two things: a v4 or v6 address, and it cannot be both at the same time

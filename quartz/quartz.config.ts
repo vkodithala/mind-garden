@@ -23,9 +23,12 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Faculty Glyphic",
-        body: "Instrument Sans",
-        code: "IBM Plex Mono",
+        header: {
+          name: "Libre Baskerville",
+          weights: [400, 700],
+        },
+        body: "Libre Franklin",
+        code: "DM Mono",
       },
       colors: {
         lightMode: {
