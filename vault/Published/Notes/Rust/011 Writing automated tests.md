@@ -1,3 +1,8 @@
+---
+publish: "true"
+date: 2025-05-18
+---
+
 ##### How to write a test in Rust
 - The bodies of test functions in Rust (and in any language, really) perform three functions:
 	- (1) Set up the initial state
@@ -131,4 +136,5 @@ fn sample_test() ...
 	- Then we can safely call its functions from any other file in our `tests` directory without that file itself being tested
 - Note: projects that are simply binary crates can't have integration tests as they're meant to be run on their own
 	- So Rust devs usually place the main functionality of their application in the library crate (which integration tests *can* test), and use `src/main.rs` (our binary crate) as more of a 'glue' with minimal application logic
-	
+> [!note]- References
+> - Chapter 11 of *The Rust Programming Language* by Steve Nichols and Nicole Klabnick.
