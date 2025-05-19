@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Varoon Kodithala",
+    pageTitle: "🌻 Varoon's Digital Garden",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -24,10 +24,10 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: {
-          name: "Libre Baskerville",
+          name: "Inter",
           weights: [400, 700],
         },
-        body: "Libre Franklin",
+        body: "Inter",
         code: "DM Mono",
       },
       colors: {
