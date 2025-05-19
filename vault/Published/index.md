@@ -6,7 +6,7 @@ date: 2025-05-03
 ![[index-banner.png]]
 My name is Varoon, and this is my digital [mind garden](https://nesslabs.com/mind-garden). Over the years, I've created and interacted with many things, all of which have come together to shape my worldview.
 
-This website is my effort to document some of this. In it you'll find my [readings](readings.md), [writings](notes), and [beliefs](beliefs.md). It's unstructured by design, and presents several winding paths down my consciousness.
+This website is my effort to document some of this. In it you'll find my [readings](readings.md), [writings](Notes), and [beliefs](beliefs.md). It's unstructured by design, and presents several winding paths down my consciousness.
 
 ### 🪴 In Bloom 
 
